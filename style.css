@@ -102,3 +102,30 @@ main{
     letter-spacing: 2;
     text-align: center;
 }
+
+.extras{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.extras .row .banqueteria > h2{
+    padding-top: 1rem;
+}
+.extras .row .banqueteria > h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.extras .row .banqueteria > p{
+    padding-top: 0.6rem;
+}
+
+.extras .row .img-presentacion > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    right: 0;
+}
