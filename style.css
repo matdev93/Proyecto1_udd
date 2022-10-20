@@ -12,3 +12,46 @@ body {
     background-color:#ffecbd;
     background-image: linear-gradient(0deg, #ffecbd, white);
 }
+
+main{
+    padding-top: 1rem;
+}
+
+.jumbotron {
+    padding-top: 1rem;
+    display: block;
+    border-width: 0;
+    border-style: solid;
+}
+
+.jumbotron .presentacion {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+.jumbotron .presentacion > div > h1{
+    font-size: 3.75rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.jumbotron .row .img-presentacion > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    right: 0;
+    
+}
+
+#correo{
+    padding-bottom: 2rem;
+}
+#correo button{
+    padding: 0.1rem 0.4rem 0.1rem 0.4rem;
+    background-color: #ffc107;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#correo input{
+    padding: 0.2rem 0.6rem;
+}
