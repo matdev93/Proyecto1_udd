@@ -129,3 +129,48 @@ main{
     display: block;
     right: 0;
 }
+
+footer{
+    padding: 1rem 2rem 0 2rem;
+    display: grid;
+}
+
+footer .iconos {
+    display: flex;
+}
+
+footer .iconos .fa-brands{
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
+footer .row > .enlaces1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+}
+
+footer .row > .enlaces2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+}
+
+.part2 {
+    padding-left: 1rem;
+}
+
+footer .row > ul {
+    list-style: none;
+}
+
+footer .hr{
+    height: 1px;
+    background-color: black;
+}
+footer .copyright{
+    display: flex;
+    justify-content: center;
+    margin-top : 1rem;
+}
